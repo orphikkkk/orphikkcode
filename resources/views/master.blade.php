@@ -48,6 +48,44 @@
 
         </div>
         @yield('footer')
+        {{--Footer--}}
+        <div class="h-38 bg-obsblack">
+            <div class="grid grid-cols-6 gap-4 py-12">
+                <div class="col-start-2 col-span-1 flex place-content-center h-auto">
+                    <ul>
+                        <li>
+                            <a class="text-white" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="text-white" href="#">Projects</a>
+                        </li>
+                        <li>
+                            <a class="text-white" href="#">Blogs</a>
+                        </li>
+                        <li>
+                            <a class="text-white" href="#">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-span-1 flex place-content-center h-auto">
+                    <ul>
+                        <li>
+                            <a class="text-white" href="#">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a class="text-white" href="#">Twitter</a>
+                        </li>
+                        <li>
+                            <a class="text-white" href="#">Github || Gitlab</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-start-5 col-span-1 text-sassygreen">
+                    <a href="#">@orphikk.code</a>
+                </div>
+            </div>
+        </div>
+
         <!-- Javascript Libs -->
         <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
         @yield('javascript')
