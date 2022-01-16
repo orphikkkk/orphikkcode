@@ -19,7 +19,7 @@
         <div class="mx-40 py-36">
             <div class="grid grid-cols-2">
                 <div class="col-span-1 flex place-content-center">
-                    <img src="{{ asset('/img/me.jpg') }}" alt="orphikk-face" width="350" class="rounded-full">
+                    <img src="{{ asset('/img/me3.jpg') }}" alt="orphikk-face" width="350" class="rounded-full">
                 </div>
                 <div class="col-span-1">
                     <div class="text-3xl text-obsblack text-center">About me</div>
@@ -34,16 +34,15 @@
         {{--Stack--}}
         <div class="h-40 grid grid-cols-3 place-content-center bg-obsblack py-8">
             <div class="col-start-2 flex place-content-center">
-                <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
-                <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
-                <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
-                <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
-                <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
+                <img src="{{ asset('/img/stack/tailwind.svg') }}" alt="orphikk-logo" class="w-28 h-36 mr-12">
+                <img src="{{ asset('/img/stack/alpine.svg') }}" alt="orphikk-logo" class="w-28 h-36 mr-12">
+                <img src="{{ asset('/img/stack/laravel.svg') }}" alt="orphikk-logo" class="w-28 h-36 mr-12">
+                <img src="{{ asset('/img/stack/livewire.png') }}" alt="orphikk-logo" width="200" class="h-32 mr-12 mt-2">
             </div>
         </div>
     </div>
     {{--Projects--}}
-    <div class="h-42 mx-40 p-6">
+    <div class="h-42 mx-40 py-24">
         <div class="text-3xl text-obsblack text-center">My Recent Works</div>
         <div class="grid grid-cols-2 my-12">
             <div class="col-span-1 flex place-content-center h-54">

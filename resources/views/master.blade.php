@@ -12,7 +12,7 @@
         @yield('header')
 
 {{--        Header section--}}
-        <header class="border-b-4 border-sassygreen h-24 bg-white">
+        <header class="h-24 bg-white">
             <div class="grid grid-cols-6 gap-3">
                 <div class="col-start-2 col-span-4 flex place-content-center h-auto">
                     <div class="grid grid-cols-3">
@@ -50,6 +50,12 @@
         @yield('footer')
         {{--Footer--}}
         <footer class="h-38 bg-obsblack">
+            <div class="bg-sassygreen">
+                <div class="grid grid-cols-2 mx-64">
+                    <div class="text-2xl">Want to start a <br> project together?</div>
+                    <button class="bg-sassyorange">Let's Go</button>
+                </div>
+            </div>
             <div class="grid grid-cols-6 gap-4 py-12">
                 <div class="col-start-2 col-span-1 flex place-content-center h-auto">
                     <ul>
