@@ -15,7 +15,7 @@
         </div>
     </div>
     {{--About me--}}
-    <div class="h-42 mx-40 p-6">
+    <div class="h-42 mx-40 py-36">
         <div class="grid grid-cols-2">
             <div class="col-span-1 flex place-content-center">
                 <img src="{{ asset('/img/me.jpg') }}" alt="orphikk-face" width="350" class="rounded-full">
@@ -31,7 +31,7 @@
         </div>
     </div>
     {{--Stack--}}
-    <div class="h-36 grid grid-cols-3 place-content-center bg-obsblack p-4">
+    <div class="h-40 grid grid-cols-3 place-content-center bg-obsblack py-8">
         <div class="col-start-2 flex place-content-center">
             <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
             <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">

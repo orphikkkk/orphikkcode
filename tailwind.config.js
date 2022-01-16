@@ -9,7 +9,8 @@ module.exports = {
         colors: {
             sassyorange : "#E07A5F",
             sassygreen : "#81B29A",
-            obsblack : "#212231"
+            obsblack : "#212231",
+            sassyblue : "#F0F8FF"
         }
     },
   },

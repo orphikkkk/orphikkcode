@@ -8,7 +8,7 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         @yield('css')
     </head>
-    <body class="bg-blue-100 flex flex-col h-screen">
+    <body class="bg-sassyblue flex flex-col h-screen">
         @yield('header')
 
 {{--        Header section--}}
