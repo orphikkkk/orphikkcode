@@ -15,29 +15,31 @@
         </div>
     </div>
     {{--About me--}}
-    <div class="h-42 mx-40 py-36">
-        <div class="grid grid-cols-2">
-            <div class="col-span-1 flex place-content-center">
-                <img src="{{ asset('/img/me.jpg') }}" alt="orphikk-face" width="350" class="rounded-full">
-            </div>
-            <div class="col-span-1">
-                <div class="text-3xl text-obsblack text-center">About me</div>
-                <p class="text-justify mt-14">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores aut corporis delectus dicta ducimus ea enim et explicabo hic, labore nam neque unde! Amet corporis dignissimos eius maiores quam.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores aut corporis delectus dicta ducimus ea enim et explicabo hic, labore nam neque unde! Amet corporis dignissimos eius maiores quam.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores aut corporis delectus dicta ducimus ea enim et explicabo hic, labore nam neque unde! Amet corporis dignissimos eius maiores quam.
-                </p>
+    <div class="h-screen">
+        <div class="mx-40 py-36">
+            <div class="grid grid-cols-2">
+                <div class="col-span-1 flex place-content-center">
+                    <img src="{{ asset('/img/me.jpg') }}" alt="orphikk-face" width="350" class="rounded-full">
+                </div>
+                <div class="col-span-1">
+                    <div class="text-3xl text-obsblack text-center">About me</div>
+                    <p class="text-justify mt-14">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores aut corporis delectus dicta ducimus ea enim et explicabo hic, labore nam neque unde! Amet corporis dignissimos eius maiores quam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores aut corporis delectus dicta ducimus ea enim et explicabo hic, labore nam neque unde! Amet corporis dignissimos eius maiores quam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores aut corporis delectus dicta ducimus ea enim et explicabo hic, labore nam neque unde! Amet corporis dignissimos eius maiores quam.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-    {{--Stack--}}
-    <div class="h-40 grid grid-cols-3 place-content-center bg-obsblack py-8">
-        <div class="col-start-2 flex place-content-center">
-            <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
-            <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
-            <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
-            <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
-            <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
+        {{--Stack--}}
+        <div class="h-40 grid grid-cols-3 place-content-center bg-obsblack py-8">
+            <div class="col-start-2 flex place-content-center">
+                <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
+                <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
+                <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
+                <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
+                <img src="{{ asset('/img/mainWhite.png') }}" alt="orphikk-logo" class="w-28 h-36">
+            </div>
         </div>
     </div>
     {{--Projects--}}
@@ -55,6 +57,15 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores aut corporis delectus dicta ducimus ea enim et explicabo hic, labore nam neque unde! Amet corporis dignissimos eius maiores quam.
                 </p>
             </div>
+        </div>
+    </div>
+    {{--Blogs--}}
+    <div class="h-26 p-6 bg-sassygreen px-64  text-obsblack">
+        <div class="text-2xl">Recent Blogs</div>
+        <div class="mt-4 ml-6">
+            <span class="mr-4">22.03.2021</span>
+            <span>Substack’s UI and 1Password just cost me $2,023</span>
+
         </div>
     </div>
 
