@@ -49,11 +49,16 @@
         </div>
         @yield('footer')
         {{--Footer--}}
-        <footer class="h-38 bg-obsblack">
-            <div class="bg-sassygreen">
-                <div class="grid grid-cols-2 mx-64">
-                    <div class="text-2xl">Want to start a <br> project together?</div>
-                    <button class="bg-sassyorange">Let's Go</button>
+        <footer class="h-fit bg-obsblack">
+            <div class="flex justify-center item-center -mt-20">
+                <div class="bg-sassygreen border-obsblack border w-5/12 py-4 px-16 ml-38">
+                    <div class="grid grid-cols-2">
+                        <div class="text-2xl text-center">Want to start a <br> project together?</div>
+                        <div class="flex place-content-center">
+                            <button class="border border-obsblack bg-transparent p-5 z-10 text-2xl">Let's Go</button>
+                            <div class="bg-sassyorange w-32 py-5 pl-5 pr-6 -ml-28 mt-3 -mb-3"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="grid grid-cols-6 gap-4 py-12">
