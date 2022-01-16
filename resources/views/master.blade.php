@@ -8,11 +8,11 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         @yield('css')
     </head>
-    <body>
+    <body class="bg-blue-100 flex flex-col h-screen">
         @yield('header')
 
 {{--        Header section--}}
-        <div class="border-b-4 border-indigo-500 h-24">
+        <header class="border-b-4 border-sassygreen h-24 bg-white">
             <div class="grid grid-cols-6 gap-3">
                 <div class="col-start-2 col-span-4 flex place-content-center h-auto">
                     <div class="grid grid-cols-3">
@@ -42,14 +42,14 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
+        </header>
             @yield('content')
+        <div class="container">
 
         </div>
         @yield('footer')
         {{--Footer--}}
-        <div class="h-38 bg-obsblack">
+        <footer class="h-38 bg-obsblack">
             <div class="grid grid-cols-6 gap-4 py-12">
                 <div class="col-start-2 col-span-1 flex place-content-center h-auto">
                     <ul>
@@ -84,7 +84,7 @@
                     <a href="#">@orphikk.code</a>
                 </div>
             </div>
-        </div>
+        </footer>
 
         <!-- Javascript Libs -->
         <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
